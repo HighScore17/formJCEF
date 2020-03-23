@@ -8,7 +8,7 @@ document.querySelector("#submit").addEventListener("click", function() {
   let servicio = document.querySelector("#servicio").value;
 
   let url =
-    "https://api.whatsapp.com/send?phone=9141131162&text=*_Jovenes Construyendo_*%0A*Datos*%0A%0A*¿Cual es tu nombre?*%0A" +
+    "https://api.whatsapp.com/send?phone=529141131162&text=*_Jovenes Construyendo_*%0A*Datos*%0A%0A*¿Cual es tu nombre?*%0A" +
     nombre +
     "%0A*Correo*%0A" +
     correo +
