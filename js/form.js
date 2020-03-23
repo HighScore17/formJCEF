@@ -4,7 +4,7 @@ document.querySelector("#submit").addEventListener("click", function() {
   let password = document.querySelector("#pass").value;
   let fecha = document.querySelector("#fecha").value;
   let hora = document.querySelector("#hora").value;
-  let barbero = document.querySelector("#barbero").value;
+  let tutor = document.querySelector("#tutor").value;
   let servicio = document.querySelector("#servicio").value;
 
   let url =
@@ -19,7 +19,7 @@ document.querySelector("#submit").addEventListener("click", function() {
     "%0A*Indica la hora*%0A" +
     hora +
     "%0A*Tutor*%0A" +
-    barbero +
+    tutor +
     "%0A*¿Cual es el tu actividad principal*%0A" +
     servicio;
   window.open(url);
